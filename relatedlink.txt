@@ -1,0 +1,370 @@
+https://crossoverccat.com/wp/?gclid=Cj0KCQjwit_8BRCoARIsAIx3Rj6-kVRygKZAvhvpj_EI7K8MOLn0wQKPrp98D9aZu9fbiQf8C7AL_NkaAhhREALw_wcB
+\\
+git token   408b70d63282bf7edfc66d9a8481941ff39ca851 
+
+
+How do I delete a Service?
+Start the registry editor (regedit.exe)
+Move to the HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services key.
+Select the key of the service you want to delete.
+From the Edit menu select Delete.
+You will be prompted "Are you sure you want to delete this Key" click Yes.
+Exit the registry editor.
+
+
+
+https://secure-savannah-63628.herokuapp.com/ | https://git.heroku.com/secure-savannah-63628.git
+
+git clone https://devops.chams.com/tfs/DefaultCollection/_git/Crimsv2
+//link for crims Woye1234@@
+
+//university of hull
+
+Your User ID is 676094
+
+//new admin payroll password   @dm1n123
+
+//Task
+1. Other Salary
+2. Payee Report
+3. Monthly Payroll Report
+
+
+
+
+
+Right click on project ---> Properties ---> Java Build Path ---> Add Library... ---> Server Runtime ---> Apache Tomcat ----> Finish.
+
+Use the admin access to export. 
+admin
+pr355ON@2020
+
+//change django password
+
+https://djangowaves.com/tips-tricks/how-to-reset-the-django-admin-password/
+
+//django download 
+https://www.youtube.com/watch?v=JT80XhYJdBw
+
+SELECT ACCOUNT1,BANK,SUM(AMOUNT) AMOUNT,accountname ,  numenclature FROM   difference GROUP BY  
+        NUMENCLATURE, ACCOUNT1,BANK,accountname ORDER BY numenclature ASC
+
+/EXPORTED MIGRATION DETAILS
+
+https://www.codejava.net/frameworks/spring-boot/spring-boot-security-role-based-authorization-tutorial
+
+//above is rolebased
+
+https://stackoverflow.com/questions/19605078/how-to-use-pagination-on-html-tables/19605115
+
+https://codecanyon.net/item/hrm-human-resource-management-system/16838319
+
+https://github.com/tazeenm/Grocery_ManagementSystem/find/master
+
+GTB OLD ACCOUNT NO : 45151559101
+
+https://mdbootstrap.com/docs/jquery/tables/pagination/
+
+select * from basedatas where datelastupdate between '2019/01/01' and '2019/12/31' order by datelastupdated desc
+
+https://moviemakeronline.com/a/make-video-with-photos-and-music
+https://mkyong.com/spring-boot/spring-boot-jdbc-examples/
+
+https://www11.lunapic.com/editor/
+shhttps://www.cortpartyrental.com/
+https://cleaneat.com.ng/blogpost/fumigation-pest-control-nigeria/
+
+https://www.projecttopics.org/design-implementation-medical-test-result-system.html
+
+https://myproject.com.ng/products/design-implementation-medical-diagnostic-system/
+
+AUTOMATED DATA ANALYSIS OF LABORATORY TEST RESULTS AND ITS SCIENTIFIC IMPORTANCE
+
+https://www.projectclue.com/computer-science/project-topics-materials-for-undergraduate-students/automated-data-analysis-of-laboratory-test-results-and-its-scientific-importance
+
+
+https://howtodoinjava.com/spring-mvc/spring-mvc-display-validate-and-submit-form-example/
+
+https://www.projectclue.com/computer-science/project-topics-materials-for-undergraduate-students/design-and-implementation-of-a-computerised-payroll-system
+
+
+
+UNIOSUN POSTGRADUATE
+
+Portal Account Details
+
+Your portal account on UNIOSUN PG has been created. Your login Credentials are as follows
+Username:: 351182722
+Password:: woyeuniosun
+
+
+https://krazytech.com/programs/session-role-based-java-login-example
+
+
+http://www.sqlines.com/online
+
+https://www.boraji.com/spring-mvc-4-sessionattributes-example
+
+https://www.journaldev.com/8718/spring-4-security-mvc-login-logout-example
+
+https://dev.mysql.com/doc/refman/8.0/en/innodb-foreign-key-constraints.html
+
+https://www.youtube.com/watch?v=7O7c7Y_-QJU&list=PLLGI5phu9E46Amea05e_EybG1Mebo1ev5&index=3
+
+https://www.addtoany.com/buttons/customize/floating_share_buttons
+
+
+https://whatshelp.io/widget   // add whatsapp to your website
+
+
+  CREATE TABLE customers (
+    customer_id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_name VARCHAR(100)
+);
+
+
+CREATE TABLE orders (
+    order_id INT AUTO_INCREMENT PRIMARY KEY,
+    customer_id INT,
+    amount DOUBLE,
+    FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
+);
+
+CREATE TABLE users (
+    user_id INT AUTO_INCREMENT  
+     name varchar(100) NOT NULL,
+    user_name VARCHAR(100) NOT NULL,
+    password VARCHAR(50) NOT NULL,
+    user_roles_id INT(50) NOT NULL,
+    ENABLED BOOLEAN,
+    PRIMARY KEY(user_roles_id)
+
+;
+
+
+CREATE TABLE USERS_ROLES(
+role_id INT AUTO_INCREMENT,
+user_roles_id INT(50) NOT NULL,
+AUTHORITY VARCHAR(50) NOT NULL,
+PRIMARY KEY(role_id),
+FOREIGN KEY (user_roles_id) REFERENCES users(user_roles_id));
+
+
+INSERT INTO USERS (STAFF_NAME,USER_NAME,USER_PASSWORD,USER_ROLES_ID,ENABLED) VALUES ('bWOYE','awoye',MD5('password'),1000,TRUE);
+ 
+ INSERT INTO USERS (STAFF_NAME,USER_NAME,USER_PASSWORD,USER_ROLES_ID,ENABLED) VALUES ('ilufoye taofeeq','tilufoye',MD5('password'),1000,FALSE);
+
+
+ ALTER TABLE patient_data
+ADD CONSTRAINT FK_Patientuser
+FOREIGN KEY (userId) REFERENCES USER(userId);
+
+
+  ALTER TABLE mcs_data
+ADD CONSTRAINT FK_Patientuser
+FOREIGN KEY (patient_inst_id) REFERENCES patient_data(PATIENT_INST_ID);
+
+//change table engine to innodb
+
+ ALTER TABLE chemicaldata ENGINE = INNODB;
+
+//linked example//
+CREATE TABLE users(
+slno INT NOT NULL AUTO_INCREMENT UNIQUE KEY,
+fullname VARCHAR(30) NOT NULL,
+email VARCHAR(30) PRIMARY KEY,
+username VARCHAR(30) NOT NULL UNIQUE KEY,
+PASSWORD VARCHAR(30) NOT NULL,
+role VARCHAR(20));
+
+
+
+CREATE TABLE UserDB.`users` (
+  `userid` int(11) NOT NULL AUTO_INCREMENT,
+  `firstname` varchar(45) DEFAULT NULL,
+  `lastname` varchar(45) DEFAULT NULL,
+  `dob` date DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`userid`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8
+ 
+
+https://danielniko.wordpress.com/2012/04/17/simple-crud-using-jsp-servlet-and-mysql/
+
+<script src="/gold_standard_ng/BootStrap/js/jquery-1.4.3.js"></script>
+
+
+/join query for the test//
+
+SELECT patient_name,patient_data.PATIENT_INST_ID,mobile_number,gender,MARITAL_STATUS,contact_address,enrolldate, age,hospital_name,
+lh,fsh,prolactin,progesterone,comment_one FROM patient_data LEFT JOIN hormonal_assay ON patient_data.PATIENT_INST_ID = hormonal_assay.PATIENT_INST_ID
+WHERE patient_data.patient_inst_id = 7;
+
+
+
+RESET PRIMARY KEY IN MYSQL
+
+TRUNCATE TABLE some_table //THIS WILL CLEAR ALL RECORDS AND SET THE AUTO INCREMENT TO 1
+
+YOU CAN ALSO RESET IT BY USING THE ALTER TABLE COMMAND
+
+ALTER TABLE some_table AUTO_INCREMENT=1
+
+//patient booking query//
+SELECT patient_name,bookappointment.patient_inst_id,test_name,department,amount FROM bookappointment LEFT JOIN patient_data
+ON patient_data.PATIENT_INST_ID = bookappointment.patient_inst_id
+
+//script to copy table and the data
+
+CREATE TABLE electrolyte_data AS SELECT * FROM chemicaldata;
+
+
+
+https://stackoverflow.com/questions/18241008/how-can-i-handle-restrict-user-access-to-servlets-jsps
+
+http://www.javaknowledge.info/jstl-1-1-simple-insert-update-delete-example/ //jstl link
+
+https://www.skyfilabs.com/online-courses/biometric-authentication?v2
+
+https://www.huntapro.com/search/in/?q=biometric%20in%20java#contr87860839680
+
+//how to change the database to ip
+Enter password: <enter password>
+show databases
+use  goldstandard;
+
+
+
+mysql>GRANT ALL ON *.* to root@'123.123.123.123' IDENTIFIED BY 'put-your-password';
+mysql>FLUSH PRIVILEGES;
+mysql>exit
+
+
+
+
+
+
+
+//ORACLE SCRIPT TO FECTH DATE
+//UNREALISTIC RECORDS SCRIPT
+
+SELECT *
+FROM healthinsurance
+WHERE 
+dateofbirth > sysdate - 1000 -- 30 years in the past
+AND trunc(dateofbirth) BETWEEN TO_DATE('1899-01-01', 'YYYY-MM-DD')  
+AND TO_DATE('8000-01-01', 'YYYY-MM-DD');
+
+
+REALISTIC SCRIPT
+SELECT *
+FROM healthinsurance
+WHERE 
+dateofbirth > sysdate - 11000 -- 30 years in the past
+AND trunc(dateofbirth) BETWEEN TO_DATE('1899-01-01', 'YYYY-MM-DD')  
+AND TO_DATE('8000-01-01', 'YYYY-MM-DD');
+
+
+//duplicate residency
+SELECT *
+FROM healthinsurance
+WHERE (surname,firstname,middlename) IN
+    (SELECT  surname,firstname,middlename
+    FROM healthinsurance
+    GROUP BY surname,firstname,middlename
+    HAVING COUNT(*) > 1
+    )
+ORDER BY surname,firstname,middlename;
+
+select surname,firstname,middlename, count(*) from healthinsurance group by surname,firstname,middlename having count(*) > 1;
+
+https://www.oracletutorial.com/advanced-oracle-sql/find-duplicate-records-oracle/
+
+https://www.oracletutorial.com/advanced-oracle-sql/how-to-delete-duplicate-records-in-oracle/
+
+
+Select *
+FROM CORRECTEDDATA
+WHERE NOT EXISTS
+(SELECT 2 FROM DUPLICATEDATA
+WHERE CORRECTEDDATA.STATEID = DUPLICATEDATA.STATEID)
+order by LGAOFRESIDENCE asc;
+
+
+goldstandard ip = 192.168.100.1
+
+
+//SUPER ADMIN
+
+
+ 
+  <% //In case, if Admin session is not set, redirect to Login page
+ 
+ String userName = null;
+if((request.getSession(false).getAttribute("Radiology")== null) )
+{
+	if((request.getSession(false).getAttribute("super")== null) )
+	{
+
+%>
+<jsp:forward page="/login.jsp"></jsp:forward>
+<%}} %>
+
+
+ALTER TABLE epm_bank AUTO_INCREMENT = 1000; //auto increment starting from 1000
+
+
+https://service.proctorcam.com/system_tests/launch_test?app_locale=en_US&session_id=2501056&template_name=onvue_system_test  //microsoft exams
+
+
+https://www.researchgate.net/publication/5754108_Performance_of_a_Web-Based_Clinical_Diagnosis_Support_System_for_Internists
+
+antibiobic for chicken:
+
+tilodox
+joxegen
+
+//learn php
+
+https://www.taniarascia.com/create-a-simple-crud-database-app-php-update-delete/
+
+
+http://dev.mysql.com/downloads  //list of mysql tools
+
+start.spring.io
+
+having a problem with missing false xml use this procedure
+
+You can do it also like this:
+
+Right click on Deployment Descriptor in Project Explorer.
+Select Generate Deployment Descriptor Stub.
+
+having challeges with the maven update in spring boot use this
+
+Better solution: update Eclipse m2e extensions
+From Help > Install New Software.., add a new repository (via the Add.. option), pointing to the following URL:
+
+https://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-mavenarchiver/0.17.2/N/LATEST/
+Then follow the update wizard as usual. Eclipse would then require a restart. Afterwards, a further Update Project.. on the concerned Maven project would remove any error and your Maven build could then enjoy the benefit of the latest maven-jar-plugin version.
+
+
+SELECT ACCOUNT1,BANK,SUM(AMOUNT) AMOUNT,accountname ,  numenclature FROM   difference GROUP BY  
+        NUMENCLATURE, ACCOUNT1,BANK,accountname ORDER BY numenclature ASC;
+
+
+ SELECT  EPM_EMPL_SALARY_type.salary_type_name FROM EPM_EMPL_SALARY_TYPE
+ 
+  SELECT  EPM_EMPL_SALARY_type.salary_type_name,epm_empl_salary_info.grade,epm_empl_salary_info.step  FROM EPM_EMPL_SALARY_INFO LEFT JOIN
+  EPM_EMPL_SALARY_TYPE ON EPM_EMPL_SALARY_INFO.salary_type_inst_id = EPM_EMPL_SALARY_TYPE.salary_type_inst_id
+ 
+
+
+salary_type_inst_id,grade,step,	basic,	rent,	transport,meal,	utility,academic,inducement,	hazard,	maintenance,rating,callduty,driver,responsibility,specialallowance,teaching
+
+
+dropdown in thyemeleaf
+
+https://stackoverflow.com/questions/37715276/how-do-i-populate-a-drop-down-with-a-list-using-thymeleaf-and-spring
+
+ 
